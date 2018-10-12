@@ -1,7 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+html,
+body {
+  font-size: 16px;
 }
 .card {
   width: 100%;
@@ -19,14 +18,15 @@
   width: 410px;
   position: relative;
 }
-h1 {
+.name {
   font-family: sans-serif;
   font-size: 5em;
   text-transform: uppercase;
   letter-spacing: 5px;
+  margin: 0;
 }
-span {
-  font-size: 20px;
+.designation {
+  font-size: 1.35em;
   letter-spacing: 0.4px;
   text-transform: capitalize;
 }
@@ -57,10 +57,10 @@ span {
   .text {
     width: 350px;
   }
-  h1 {
+  .name {
     font-size: 3em;
   }
-  span {
-    font-size: 16px;
+  .designation {
+    font-size: 1em;
   }
 }
