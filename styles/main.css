@@ -35,7 +35,14 @@ body {
   text-transform: uppercase;
   letter-spacing: 5px;
   margin: 0;
-  margin-bottom: 10px;
+}
+.line {
+  border: none;
+  width: 30%;
+  height: 3px;
+  margin: 15px auto;
+  background-color: #ffcc33;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
 }
 .designation {
   font-size: 1.35em;
