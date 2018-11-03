@@ -57,7 +57,7 @@ body {
   z-index: 1;
 }
 .left {
-  bottom: -140px;
+  bottom: -150px;
   left: 15px;
 }
 /* Centering an absolute position element */
@@ -70,7 +70,7 @@ body {
 }
 .right {
   top: -150px;
-  right: 16px;
+  right: 15px;
 }
 
 @media only screen and (max-width: 900px) {
