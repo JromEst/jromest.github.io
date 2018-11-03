@@ -10,7 +10,7 @@ body {
 *:after {
   box-sizing: inherit;
 }
-.container {
+.wrapper {
   width: 100%;
   height: 100vh;
   background: #38273a;
@@ -19,11 +19,11 @@ body {
   justify-content: center;
   align-items: center;
 }
-.card {
+.container {
   width: 410px;
   position: relative;
 }
-.text {
+.main {
   color: #fff;
   text-align: center;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
@@ -74,7 +74,7 @@ body {
 }
 
 @media only screen and (max-width: 900px) {
-  .card {
+  .container {
     width: 350px;
   }
   .name {
